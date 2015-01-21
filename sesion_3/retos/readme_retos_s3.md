@@ -1,1 +1,1 @@
-En esta carpeta van los retos para la sesion 2
+En esta carpeta van los retos para la sesion 3
