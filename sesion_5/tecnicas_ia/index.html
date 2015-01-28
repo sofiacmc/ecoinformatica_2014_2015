@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Técnicas de análisis IA</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Técnicas de análisis IA">
+  <meta name="author" content="R. Pérez-Pérez">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/monokai.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/codefont.css"></link>
+<link rel=stylesheet href="./assets/css/mainapp.css"></link>
+<link rel=stylesheet href="./assets/css/mincodefont.css"></link>
+<link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Técnicas de análisis IA</h1>
+    <h2>Ecoinformática 2014-2015</h2>
+    <p>R. Pérez-Pérez<br/>iEcolab - IISTA - Universidad de Granada</p>
+  </hgroup>
+  <article></article>  
+  <footer class = 'license'>
+    <a href='http://creativecommons.org/licenses/by-nc-sa/3.0/'>
+    <img width = '80px' src = 'http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png'>
+    </a>
+  </footer>
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <article data-timings="">
+    <!-- Center image on slide -->
+
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+
+<script type='text/javascript'>
+$(function() {
+    $("p:has(img)").addClass('centered');
+});
+</script>
+
+<style>
+em {
+  font-style: italic
+}
+strong {
+  font-weight: bold;
+}
+</style>
+
+<!-- Limit image width and height -->
+
+<style type='text/css'>
+img {
+    max-height: 560px;
+    max-width: 964px;
+}
+</style>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="nobackground quote" id="ia" style="background:;">
+  <hgroup>
+    <h2>Qué es la IA</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br/>
+<br/>
+<code>Wikipedia</code>
+  Es un área multidisciplinar que, a través de ciencias como las ciencias de la computación, la lógica y la filosofía, estudia la creación y diseño de entidades capaces de resolver cuesttiones por sí mismas utilizando como paradigma la inteligencia humana.
+<br/>
+<br/>
+<br/>
+<code>John McCarthy</code> (1956) 
+  &quot;Es la ciencia e ingenio de hacer máquinas inteligentes, especialemente programas de cómputo inteligentes&quot;</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="algoritmos_bioinspirados" style="background:;">
+  <hgroup>
+    <h2>Algoritmos bioinspirados</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br/></p>
+
+<p align="center"><img src="images/fractales.png" width="600"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="quote" id="hormigas" style="background:;">
+  <hgroup>
+    <h2>Colonias de Hormigas</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Son insectos sociales que viven en colonias y que tienen un comportamiento dirigido al desarrollo de la colonica como un todo, más que a un desarrollo individual
+<br/>
+<a href="http://sci2s.ugr.es/seminars/5/Curso%20Baeza%20Oscar.pdf">Oscar Cordón</a></p>
+
+<ul class = "build incremental">
+<li>Expertos en encontrar el camino mínimo entre la comida y el hormiguero!!</li>
+<li>Pero si no ven!!!</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="quote" id="hormigas_2" style="background:;">
+  <hgroup>
+    <h2>Colonias de Hormigas</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br/> 
+<img src="images/hormigas.png" alt="hormigas"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h3>Problema del viajante de comercio</h3>
+  </hgroup>
+  <article data-timings="">
+    <p><br></p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <p align="center"><img src="images/ga_1.png" height="422" width="450"></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p align="center"><img src="images/ga_2.png" height="422" width="450"></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="quote" id="geneticos" style="background:;">
+  <hgroup>
+    <h2>Algoritmos genéticos</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Son algoritmos de optimización, búsqueda y aprendizaje inspirados en los procesos de Evolución Natural y Genética</p>
+
+<pre><code>Inicio
+  tiempo = 0;
+  inicializar Poblacion(t);
+  evaluar Poblacion(t);
+  Mientras (no se cumpla condición de parada) hacer
+    tiempo = tiempo + 1
+    seleccionar Poblacion(tiempo) desde Poblacion(tiempo - 1)
+    recombinar Poblacion(tiempo)
+    mutacion Poblacion(tiempo)
+    evaluar Poblacion(tiempo)
+  fin-mientras
+Fin
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="geneticos_ejemplo" style="background:;">
+  <article data-timings="">
+    <p><img src="images/ga_ejemplo.png" alt="ejemplo_geneticos"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="quote" id="redes_neuronales" style="background:;">
+  <hgroup>
+    <h2>Redes Neuronales</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><q>Es un paradigma de aprendizaje y procesamiento automático ... Sistema de interconexión de neuronas que colaboran entre sí para producir un estímulo de salida</q></p>
+
+<ul class = "build incremental">
+<li><img src="images/red_neuronal.jpg" alt="redes neuronales"></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="nn_ejemplo" style="background:;">
+  <hgroup>
+    <h2>Ejemplos aplicaciones redes neuronales</h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p align="center"><img src="images/red_neuronal_e_1.png" height="380"></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p align="center"><img src="images/red_neuronal_e_2.png" height="280"></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="quote" id="mineria" style="background:;">
+  <hgroup>
+    <h2>Qué es la minería de datos</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><q>Un proceso no trivial de identificación válida, novedosa, potencialmente útil y entendible de patrones comprensibles que se encuentran ocultos en los datos</q>
+<br/>
+<a href="http://www.csd.uwo.ca/faculty/ling/cs435/fayyad.pdf">Fayyad et al., 1996</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="mineria_2" style="background:;">
+  <hgroup>
+    <h2>Qué es la minería de datos</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul class = "build incremental">
+<li><p><strong>Extracción no trivial de información implícita</strong>, previamente desconocida y potencialmente útil, <strong>a partir de datos</strong></p></li>
+<li><p>Hace uso de <strong>todas las técnicas</strong> que puedan aportar información útil
+<br/>
+desde un análisis gráfico, métodos estadísticos, ..., <strong>completando con métodos y algorítmos del campo de la Inteligencia Artificial</strong>. 
+<br/></p></li>
+<li><p>Tradicionalmente</p>
+
+<ul>
+<li>Almacenes de datos (<strong>datawarehouses</strong>)</li>
+<li>Minería de textos (<strong>text mining</strong>)</li>
+<li>Minería en Internet (<strong>web mining</strong>)</li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="mineria_3" style="background:;">
+  <hgroup>
+    <h2>Ejemplo clásico de minería de datos</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br/></p>
+
+<h1><strong>(reglas de asociación)</strong></h1>
+
+<p><br/>
+<br/>
+Wal-Mart realizó a finales de los años 90 un análisis de los hábitos de compra de sus clientes.   <strong>Descubrieron una correlación estadísticamente significativa</strong> entre las compras de pañales y cerveza: los viernes por la tarde, los hombres entre 25 y 35 años que compraban cerveza también compraban pañales ...</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_cocinado" style="background:;">
+  <hgroup>
+    <h2>Fases del cocinado</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="images/fases_cocinado.jpg" alt="fases_cocinado"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_preprocesamiento" style="background:;">
+  <hgroup>
+    <h2>Pre-procesamiento</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="images/pre_procesamiento.jpg" alt="pre_procesamiento"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_preprocesamiento" style="background:;">
+  <hgroup>
+    <h2>Pre-procesamiento</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol class = "build incremental">
+<li><p><strong>Integración de Datos</strong>
+<br/>
+<code>Formatos diferentes, distintos períodos, ... --&gt; 
+Proceso de integración y unificación de conceptos</code></p></li>
+<li><p><strong>Reconocimiento y limpieza de Datos</strong>
+<br/>
+<code>Reducir el ruido y las inconsistencias, datos nulos, outliers ... --&gt; Tablas de resumen de atributos, resúmenes de estadísticas y diagramas.</code> </p></li>
+<li><p><strong>Selección de Características</strong></p>
+
+<ul>
+<li>Transformación de Datos
+<br/>
+<code>Normalización de los datos, transformación de algunos tipos de atributos, dependiendo del algoritmo que pensemos usar</code></li>
+<li>Reducción de Datos
+<br/>
+<code>disminuye el tamaño de los datos, eliminando características redundantes --&gt; Selección/Extracción de atributos, Construcción de nuevos atributos, ...</code></li>
+</ul></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_analisis" style="background:;">
+  <hgroup>
+    <h2>Análisis</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="images/md_cocina.jpg" alt="cocinando"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_post_procesamiento" style="background:;">
+  <hgroup>
+    <h2>Post-procesamiento</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br/>
+<img src="images/post_procesado.jpg" alt="cocinando"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_post_procesamiento" style="background:;">
+  <hgroup>
+    <h2>Post-procesamiento</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br/>
+<br/></p>
+
+<ul class = "build incremental">
+<li><strong>Filtrado del conocimiento generado</strong> 
+<br/>
+<code>Eliminando información redudante</code></li>
+</ul>
+
+<p><br/></p>
+
+<ul class = "build incremental">
+<li><strong>Interpretación y explicación</strong>
+<br/>
+<code>Procesar el conocimiento generado para el usuario final --&gt; visualización, deshacer transformaciones, ...</code></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_algoritmos" style="background:;">
+  <hgroup>
+    <h2>Algoritmos</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br/></p>
+
+<ol class = "build incremental">
+<li><p><strong>Descriptivos</strong> 
+<br/>
+<code>Análisis exploratorio (correlaciones, dependencias, detección datos anómalos, reglas de asociación, ...)</code></p></li>
+<li><p><strong>Predictivo</strong> 
+<br/>
+<code>Aprendizaje supervisado (clasificación, estimación o regresión)</code></p></li>
+<li><p><strong>Segmentación</strong> 
+<br/>
+<code>Aprendizaje no supervisado</code></p></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="tipo_aprendizaje" style="background:;">
+  <hgroup>
+    <h2>Aprendizaje supervisado vs no supervisado</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br/></p>
+
+<ul class = "build incremental">
+<li><strong>Supervisado</strong>
+<br/>
+<code>Se provee una respuesta correcta durante su entrenamiento</code></li>
+</ul>
+
+<p><br/></p>
+
+<ul class = "build incremental">
+<li><strong>No Supervisado</strong>
+<br/>
+<code>El objetivo a alcanzar no está presente</code></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_arboles_decision" style="background:;">
+  <hgroup>
+    <h2>Árboles de decisión</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br/></p>
+
+<h3>Técnica de análisis no paramétrica que permite predecir la asignación de muestras a grupos predefinidos en función de una serie de variables predictoras.</h3>
+
+<ul class = "build incremental">
+<li>Se pueden usar para clasificación y regresión
+<br/></li>
+<li>Útiles para la exploración de datos, y cuando hay un número elevado de datos
+<br/></li>
+<li>De <strong>clasificación</strong>, cuando la respuesta final es una clase
+<br/></li>
+<li>De <strong>regresión</strong>, cuando la respuesta final es un valor</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_arboles_clasificacion" style="background:;">
+  <hgroup>
+    <h2>Árboles de clasificación</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br/>
+<br/></p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <p align="center"><img src="images/md_clasificacion_1.png" height="280"></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p align="center"><img src="images/md_clasificacion_2.png" height="280"></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_arboles_clasificacion_2" style="background:;">
+  <hgroup>
+    <h2>Árboles de clasificación</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br/>
+<br/></p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <p align="center"><img src="images/md_clasificacion_3.png" height="280"></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p align="center"><img src="images/md_clasificacion_4.png" height="240"></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_arboles_regresion" style="background:;">
+  <hgroup>
+    <h2>Árboles de regresión</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br/>
+<br/></p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <p align="center"><img src="images/md_regresion_2.png" height="280"></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p align="center"><img src="images/md_regresion_1.png" height="280"></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_arboles_regresion_2" style="background:;">
+  <hgroup>
+    <h2>Árboles de regresión</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br/>
+<br/>
+<img src="images/md_regresion_3.png" alt="arbol regresion"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_eje_arboles_clasificacion" style="background:;">
+  <hgroup>
+    <h2>Todos a programar!!!</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br/></p>
+
+<h1>Vamos a generar un árbol de clasificación de las flores del género Iris.</h1>
+
+<pre><code>library(tree)
+library(datasets)
+iris
+iris.tr &lt;- tree(Species ~ ., iris)
+iris.tr
+summary(iris.tr)
+plot(iris.tr)
+text(iris.tr)
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_eje_arboles_clasificacion_2" style="background:;">
+  <hgroup>
+    <h2>Resumen del árbol generado</h2>
+  </hgroup>
+  <article data-timings="">
+    <pre><code>## 
+## Classification tree:
+## tree(formula = Species ~ ., data = iris)
+## Variables actually used in tree construction:
+## [1] &quot;Petal.Length&quot; &quot;Petal.Width&quot;  &quot;Sepal.Length&quot;
+## Number of terminal nodes:  6 
+## Residual mean deviance:  0.1253 = 18.05 / 144 
+## Misclassification error rate: 0.02667 = 4 / 150
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_eje_arboles_clasificacion_3" style="background:;">
+  <hgroup>
+    <h2>Gráfico del árbol de clasificación</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-2-1.png" alt="plot of chunk unnamed-chunk-2"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_cluster" style="background:;">
+  <hgroup>
+    <h2>Cluster</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br/></p>
+
+<h3><strong>Objetivo</strong> Agrupar un conjunto de observaciones en un número dado de clusters o grupos.</h3>
+
+<h3>El agrupamiento se basa en la idea de distancia o similitud en las observaciones.</h3>
+
+<p><br/></p>
+
+<ul class = "build incremental">
+<li>Ejemplo: una baraja de cartas españolas
+
+<ul>
+<li>en cuatro clusters: los cuatro palos</li>
+<li>en ocho: los cuatro palos y según seas figuras o números</li>
+<li>en dos: figuras y números</li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_cluster_distancias" style="background:;">
+  <hgroup>
+    <h2>Distancias formas de medir las distancias</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br/>
+<img src="images/distancias.png" alt="distancias"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_cluster_k_medias" style="background:;">
+  <hgroup>
+    <h2>K-medias</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>Permite asignar a cada observación el cluster que se encuentra más próximo en términos del centroide (media).</h3>
+
+<pre><code>1. Se toman al azar K clusters iniciales.
+2. Mientras no se cumpla la condición de parada
+  + Para el conjunto de observaciones
+    - Se calculan las distancias a los centroides de los clusters
+    - Se reasignan a los que estén más próximos.
+  + Se re-calculan los centroides de los k clusters 
+    (media de todos los elementos que lo forman)
+
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_cluster_k_medias_grafico" style="background:;">
+  <hgroup>
+    <h2>K-means, ejemplo gráfico</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br/>
+<img src="images/kmeansViz.png" alt="k_means"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_cluster_k_medias_ejercicio" style="background:;">
+  <hgroup>
+    <h2>Trabajando con las imágenes de NDVI de la sesión 3</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>Cargamos librería raster y obtenemos los ficheros de imágenes para una hora determinada</li>
+</ul>
+
+<pre><code>library(raster)
+
+hora &lt;- &quot;12&quot;
+imagenes &lt;- list.files(path=&quot;./ndvi&quot;, full.names = TRUE, 
+pattern=paste(&quot;_&quot;, hora, &quot;..\\.jpg\\.asc$&quot;, sep=&quot;&quot;))
+</code></pre>
+
+<ul>
+<li>Visualizamos una de las imágenes</li>
+</ul>
+
+<pre><code>imagen &lt;- raster(imagenes[[1]])
+plot(imagen)
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_cluster_k_medias_ejercicio_2" style="background:;">
+  <hgroup>
+    <h2>Trabajando con las imágenes de NDVI de la sesión 3</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li><p>Algo de pre-procesamiento</p>
+
+<pre><code>hist(imagen[])
+</code></pre></li>
+<li><p>Hacemos un k-means con dos grupos</p>
+
+<pre><code>mi_cluster &lt;- kmeans(imagen[], 2, iter.max = 200, nstart = 3)
+</code></pre></li>
+<li><p>Creamos una imagen raster con el resultado</p>
+
+<pre><code>cluster_ndvi &lt;- raster(imagen)
+cluster_ndvi[] &lt;- mi_cluster$cluster
+plot(cluster_ndvi)
+</code></pre></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="md_cluster_k_medias_ejercicio_3" style="background:;">
+  <hgroup>
+    <h2>Quieres prácticar?</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>Un informe (R markdown) con:</h3>
+
+<ol>
+<li>Muestre una de las imágenes</li>
+<li>Muestre una agrupación de los píxeles que permita distinguir al menos: cielo, suelo desnudo, y pinos.</li>
+</ol>
+
+<ul>
+<li>Pre-procesamiento: usar la imagen resultado de la media de las imágenes de una hora.</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title=''>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Qué es la IA'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Algoritmos bioinspirados'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Colonias de Hormigas'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Colonias de Hormigas'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Problema del viajante de comercio'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='Algoritmos genéticos'>
+         7
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title=''>
+         8
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='Redes Neuronales'>
+         9
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='Ejemplos aplicaciones redes neuronales'>
+         10
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=11 title='Qué es la minería de datos'>
+         11
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=12 title='Qué es la minería de datos'>
+         12
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=13 title='Ejemplo clásico de minería de datos'>
+         13
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=14 title='Fases del cocinado'>
+         14
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=15 title='Pre-procesamiento'>
+         15
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=16 title='Pre-procesamiento'>
+         16
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=17 title='Análisis'>
+         17
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=18 title='Post-procesamiento'>
+         18
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=19 title='Post-procesamiento'>
+         19
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=20 title='Algoritmos'>
+         20
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=21 title='Aprendizaje supervisado vs no supervisado'>
+         21
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=22 title='Árboles de decisión'>
+         22
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=23 title='Árboles de clasificación'>
+         23
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=24 title='Árboles de clasificación'>
+         24
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=25 title='Árboles de regresión'>
+         25
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=26 title='Árboles de regresión'>
+         26
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=27 title='Todos a programar!!!'>
+         27
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=28 title='Resumen del árbol generado'>
+         28
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=29 title='Gráfico del árbol de clasificación'>
+         29
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=30 title='Cluster'>
+         30
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=31 title='Distancias formas de medir las distancias'>
+         31
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=32 title='K-medias'>
+         32
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=33 title='K-means, ejemplo gráfico'>
+         33
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=34 title='Trabajando con las imágenes de NDVI de la sesión 3'>
+         34
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=35 title='Trabajando con las imágenes de NDVI de la sesión 3'>
+         35
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=36 title='Quieres prácticar?'>
+         36
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>

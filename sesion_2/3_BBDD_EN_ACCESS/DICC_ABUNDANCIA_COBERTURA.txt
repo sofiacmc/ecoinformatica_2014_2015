@@ -1,0 +1,12 @@
+COD_ABUNCOBER;ABUN_COBER;CODIGO;ESTIMA_INDIV
+1;< 4 % con pocos individuos;1;1
+2;< 4% con algunos individuos;2;2
+3;< 4% con muchos individuos;3;3
+4;4-10;4;7
+5;11-25;5;12
+6;26-33;6;30
+7;34-50;7;42
+8;51-75;8;63
+9;75-90;9;83
+10;91-100;10;96
+11;Un individuo sin cobertura;+;1

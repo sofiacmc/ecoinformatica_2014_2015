@@ -1,0 +1,585 @@
+<zuiprezi>
+  <version>1</version>
+  <zui-table>
+    <settings>
+      <autoplay>
+        <delay>4000</delay>
+      </autoplay>
+      <bounds x="-316578.9" y="-83895.35" width="666052.9" height="204786.55"/>
+    </settings>
+    <object id="5_2116570" type="image" x="-24742.6" y="-35183.9" r="0" s="2265.698974609375">
+      <source w="244" h="43">19238715.swf<url>19238715.swf</url>
+      </source>
+    <resource><id>
+        19238715
+        </id><url>http://0103.static.prezi.com.s3.amazonaws.com/converted/a/f/3/cf605f69880a61286ee32393766cc1fa2d625.swf</url></resource></object>
+    <object id="1_1914639" type="image" x="1455.3" y="-1276.9" r="0" s="100.32811737060548">
+      <source w="680" h="243">19068312.swf<url>19068312.swf</url>
+      </source>
+    <resource><id>
+        19068312
+        </id><url>http://0103.static.prezi.com.s3.amazonaws.com/converted/9/6/3/1e4ac90b5f6f64de4f42f0e0facf1dfc4cfac.swf</url></resource></object>
+    <object id="35_1655249" type="button" x="1202.55" y="-769.9" r="0" s="127.17784267809893" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>532.95</w>
+        <h>195.05</h>
+      </size>
+    </object>
+    <object id="3_1655249" type="button" x="-28754.7" y="-9199.15" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>435</w>
+        <h>403.85</h>
+      </size>
+    </object>
+    <object id="4_1655249" type="button" x="-26041.35" y="-10639.8" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>253</w>
+        <h>127</h>
+      </size>
+    </object>
+    <object id="5_1655249" type="button" x="-24222.95" y="-9173.8" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>408.25</w>
+        <h>148.35</h>
+      </size>
+    </object>
+    <object id="6_1655249" type="button" x="-19558.1" y="-9259.35" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>364</w>
+        <h>396</h>
+      </size>
+    </object>
+    <object id="7_1655249" type="button" x="-16430.9" y="-10551.7" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>217</w>
+        <h>160</h>
+      </size>
+    </object>
+    <object id="8_1655249" type="button" x="-16380.85" y="-5134.5" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>311.25</w>
+        <h>320.8</h>
+      </size>
+    </object>
+    <object id="9_1655249" type="button" x="-13336" y="-9178.25" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>329.2</w>
+        <h>157.1</h>
+      </size>
+    </object>
+    <object id="10_1655249" type="button" x="-7063.2" y="-9289.75" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>352.75</w>
+        <h>387.9</h>
+      </size>
+    </object>
+    <object id="11_1655249" type="button" x="-3870.05" y="-10696.8" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>201.05</w>
+        <h>137.95</h>
+      </size>
+    </object>
+    <object id="12_1655249" type="button" x="-825.2" y="-9340.45" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>262.9</w>
+        <h>129.95</h>
+      </size>
+    </object>
+    <object id="13_1655249" type="button" x="5412.1" y="-9358.2" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>375.1</w>
+        <h>405.05</h>
+      </size>
+    </object>
+    <object id="14_1655249" type="button" x="8823.25" y="-9980" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>209</w>
+        <h>239</h>
+      </size>
+    </object>
+    <object id="15_1655249" type="button" x="11826.9" y="-8912.65" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>302.05</w>
+        <h>160.7</h>
+      </size>
+    </object>
+    <object id="16_1655249" type="button" x="16068.35" y="-8925.3" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>414.6</w>
+        <h>174.7</h>
+      </size>
+    </object>
+    <object id="32_1655249" type="button" x="27535.6" y="-2411.7" r="0" s="34.951175225793136" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>555.9</w>
+        <h>576.6</h>
+      </size>
+    </object>
+    <object id="17_1655249" type="button" x="21147.75" y="-9209.9" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>404</w>
+        <h>427</h>
+      </size>
+    </object>
+    <object id="18_1655249" type="button" x="19977.7" y="-9892.5" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>205</w>
+        <h>197</h>
+      </size>
+    </object>
+    <object id="19_1655249" type="button" x="22042.7" y="-9829.15" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>158.7</w>
+        <h>152.7</h>
+      </size>
+    </object>
+    <object id="20_1655249" type="button" x="21123" y="-7994.9" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>214</w>
+        <h>122</h>
+      </size>
+    </object>
+    <object id="21_1655249" type="button" x="25112.2" y="-10024.95" r="0" s="12.67382893763565" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>216.55</w>
+        <h>244.3</h>
+      </size>
+    </object>
+    <object id="22_1655249" type="button" x="-28891" y="4822.65" r="0" s="23.57997010561179" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>208.1</w>
+        <h>225.9</h>
+      </size>
+    </object>
+    <object id="23_1655249" type="button" x="-26110.6" y="3643.5" r="0" s="23.57997010561179" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>110.05</w>
+        <h>70.1</h>
+      </size>
+    </object>
+    <object id="24_1655249" type="button" x="-11863.2" y="5057.3" r="0" s="23.57997010561179" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>216</w>
+        <h>90</h>
+      </size>
+    </object>
+    <object id="25_1655249" type="button" x="-7103.1" y="4755.45" r="0" s="23.57997010561179" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>194</w>
+        <h>206</h>
+      </size>
+    </object>
+    <object id="26_1655249" type="button" x="-3864.6" y="3483.8" r="0" s="13.844566572365363" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>184.1</w>
+        <h>97.85</h>
+      </size>
+    </object>
+    <object id="27_1655249" type="button" x="-894.5" y="4883" r="0" s="13.844566572365363" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>260.9</w>
+        <h>98.25</h>
+      </size>
+    </object>
+    <object id="28_1655249" type="button" x="5285.25" y="4844.9" r="0" s="13.844566572365363" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>353.75</w>
+        <h>355.9</h>
+      </size>
+    </object>
+    <object id="29_1655249" type="button" x="8298.25" y="3454.7" r="0" s="13.844566572365363" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>177</w>
+        <h>125</h>
+      </size>
+    </object>
+    <object id="30_1655249" type="button" x="12489.65" y="5024.25" r="0" s="13.844566572365363" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>305.1</w>
+        <h>134.05</h>
+      </size>
+    </object>
+    <object id="31_1655249" type="button" x="21229.6" y="4922.5" r="0" s="13.844566572365363" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>343</w>
+        <h>338</h>
+      </size>
+    </object>
+    <object id="33_1655249" type="button" x="28135.05" y="-1562.35" r="0" s="34.951175225793136" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>150</w>
+        <h>175</h>
+      </size>
+    </object>
+    <object id="34_1655249" type="button" x="32335.5" y="-3066.95" r="0" s="12.793764114379885" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>187.75</w>
+        <h>141.45</h>
+      </size>
+    </object>
+    <object id="4_2116570" type="image" x="25373.05" y="66864.4" r="0" s="2146.34228515625">
+      <source w="302" h="44">19238704.swf<url>19238704.swf</url>
+      </source>
+    <resource><id>
+        19238704
+        </id><url>http://0103.static.prezi.com.s3.amazonaws.com/converted/b/a/9/c0c836167f707e7cfa201f0459ef40c3d597b.swf</url></resource></object>
+    <object id="19_2238531" type="image" x="-4026.75" y="104286.7" r="0" s="108.47335052490234">
+      <source w="680" h="134">19411833.swf<url>19411833.swf</url>
+      </source>
+    <resource><id>
+        19411833
+        </id><url>http://0103.static.prezi.com.s3.amazonaws.com/converted/d/5/5/d8db27e9fa5fea62fba1786cae471c3964ab2.swf</url></resource></object>
+    <object id="6_2116570" type="button" x="14834.15" y="18642.3" r="0" s="881.42626953125" class="bracket">
+      <type>bracket</type>
+      <size>
+        <w>752</w>
+        <h>232</h>
+      </size>
+    </object>
+    <object id="2_2238531" type="button" x="-35223" y="104576.75" r="0" s="51.9825343795228" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>210.95</w>
+        <h>225</h>
+      </size>
+    </object>
+    <object id="3_2238531" type="button" x="-28568" y="100647.15" r="0" s="51.9825343795228" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>116.95</w>
+        <h>64</h>
+      </size>
+    </object>
+    <object id="4_2238531" type="button" x="-25288.6" y="106004.5" r="0" s="51.9825343795228" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>135</w>
+        <h>118</h>
+      </size>
+    </object>
+    <object id="5_2238531" type="button" x="-14704" y="104394.7" r="0" s="51.9825343795228" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>220</w>
+        <h>218</h>
+      </size>
+    </object>
+    <object id="6_2238531" type="button" x="-3211.8" y="104940.8" r="0" s="51.9825343795228" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>197.95</w>
+        <h>93</h>
+      </size>
+    </object>
+    <object id="7_2238531" type="button" x="6569.2" y="104290.65" r="0" s="51.9825343795228" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>214</w>
+        <h>218</h>
+      </size>
+    </object>
+    <object id="8_2238531" type="button" x="17489.25" y="104730.15" r="0" s="51.9825343795228" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>190.05</w>
+        <h>87</h>
+      </size>
+    </object>
+    <object id="9_2238531" type="button" x="27215.65" y="104444.1" r="0" s="51.9825343795228" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>205.9</w>
+        <h>219.95</h>
+      </size>
+    </object>
+    <object id="10_2238531" type="button" x="13484.3" y="100883.8" r="0" s="51.9825343795228" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>124</w>
+        <h>67</h>
+      </size>
+    </object>
+    <object id="11_2238531" type="button" x="17715.2" y="101093" r="0" s="44.13411331176758" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>66.95</w>
+        <h>23.1</h>
+      </size>
+    </object>
+    <object id="12_2238531" type="button" x="-9089.25" y="100751.2" r="0" s="51.9825343795228" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>62</w>
+        <h>58</h>
+      </size>
+    </object>
+    <object id="17_2238531" type="button" x="-4451.25" y="100490.5" r="0" s="8.546893412430997" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>662.45</w>
+        <h>302</h>
+      </size>
+    </object>
+    <object id="13_2238531" type="button" x="-6367.7" y="100699.1" r="0" s="8.546893412430997" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>214</w>
+        <h>228</h>
+      </size>
+    </object>
+    <object id="14_2238531" type="button" x="-5197.9" y="100284.95" r="0" s="8.546893412430997" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>97.1</w>
+        <h>77.8</h>
+      </size>
+    </object>
+    <object id="15_2238531" type="button" x="-4328.6" y="100840.1" r="0" s="8.546893412430997" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>164.6</w>
+        <h>75.8</h>
+      </size>
+    </object>
+    <object id="16_2238531" type="button" x="-2553.25" y="100820.85" r="0" s="8.546893412430997" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>176</w>
+        <h>171</h>
+      </size>
+    </object>
+  </zui-table>
+  <path>
+    <o>6_2116570</o>
+    <o>3_1655249</o>
+    <o>4_1655249</o>
+    <o>5_1655249</o>
+    <o>6_1655249</o>
+    <o>7_1655249</o>
+    <o>8_1655249</o>
+    <o>9_1655249</o>
+    <o>10_1655249</o>
+    <o>11_1655249</o>
+    <o>12_1655249</o>
+    <o>13_1655249</o>
+    <o>14_1655249</o>
+    <o>15_1655249</o>
+    <o>16_1655249</o>
+    <o>17_1655249</o>
+    <o>18_1655249</o>
+    <o>19_1655249</o>
+    <o>20_1655249</o>
+    <o>21_1655249</o>
+    <o>35_1655249</o>
+    <o>22_1655249</o>
+    <o>23_1655249</o>
+    <o>24_1655249</o>
+    <o>25_1655249</o>
+    <o>26_1655249</o>
+    <o>27_1655249</o>
+    <o>28_1655249</o>
+    <o>29_1655249</o>
+    <o>30_1655249</o>
+    <o>31_1655249</o>
+    <o>34_1655249</o>
+    <o>33_1655249</o>
+    <o>35_1655249</o>
+    <o>6_2116570</o>
+    <o>2_2238531</o>
+    <o>4_2238531</o>
+    <o>5_2238531</o>
+    <o>6_2238531</o>
+    <o>7_2238531</o>
+    <o>8_2238531</o>
+    <o>9_2238531</o>
+    <o>2_2238531</o>
+    <o>3_2238531</o>
+    <o>4_2238531</o>
+    <o>5_2238531</o>
+    <o>12_2238531</o>
+    <o>13_2238531</o>
+    <o>14_2238531</o>
+    <o>15_2238531</o>
+    <o>16_2238531</o>
+    <o>17_2238531</o>
+    <o>6_2238531</o>
+    <o>7_2238531</o>
+    <o>10_2238531</o>
+    <o>11_2238531</o>
+  </path>
+  <style type="text/css"><![CDATA[
+@font-face
+{
+	src: url('LiberationSerif-Bold.swf');
+	fontFamily: strong;
+}
+
+@font-face
+{
+	src: url('LiberationSerif-Regular.swf');
+	fontFamily: head;
+}
+
+@font-face
+{
+	src: url('calluna-regular.swf');
+	fontFamily: body;
+}
+
+ZLabel
+{
+	padding: 1.2;
+}
+
+ZLabel.head
+{
+	fontFamily: head;
+	color: #333;
+}
+
+ZLabel.strong
+{
+	fontFamily: strong;
+	color: #288acc;
+}
+
+ZLabel.body
+{
+	fontFamily: body;
+	color: #111;
+}
+
+Background
+{
+	gradStart: 16777215;
+	gradEnd: 16777215;
+}
+
+Grid
+{
+	color: #ddd;
+}
+
+ZFrame.circle
+{
+	gradEndAlpha: 0.4;
+	gradStartAlpha: 0.4;
+	thickness: 6;
+	gradStartColor: #e6e6e6;
+	gradEndColor: #999;
+}
+
+ZFrame.bracket
+{
+	alpha: 0.15;
+	color: #000;
+	thickness: 10;
+}
+
+ZFrame.roundrect
+{
+	gradEndAlpha: 0.02;
+	gradStartAlpha: 0.1;
+	gradStartColor: #000;
+	gradEndColor: #000;
+	radius: 14;
+}
+
+ZFrame.invisible
+{
+	gradStartAlpha: 0.02;
+	borderAlpha: 0.6;
+	gradStartColor: #000;
+	borderColor: #5aa7cb;
+	gradEndAlpha: 0.3;
+	radius: 14;
+	gradEndColor: #000;
+}
+
+ZCurveLine
+{
+	alpha: 1;
+	color: #288acc;
+	thickness: 0;
+}
+
+ZArrow
+{
+	borderColor: #fff;
+	color: #288acc;
+	thickness: 8;
+	borderAlpha: 0.6;
+	borderThickness: 0;
+	alpha: 1;
+}
+
+ZMarker
+{
+	alpha: 0.3;
+	color: #288acc;
+	thickness: 25;
+}
+
+ZPath
+{
+	color: #40abe6;
+	textColor: #fff;
+	thickness: 3;
+	alpha: 1;
+}
+
+ZPath Ball.base
+{
+	radius: 12;
+	fillColor: #40abe6;
+	alpha: 1;
+}
+
+ZPath Ball.mid
+{
+	radius: 8;
+	fillColor: #40abe6;
+	alpha: .5;
+}
+
+ZVideo
+{
+	padding: 1.2;
+}
+
+]]></style>
+  <hash>dd6ef0522c790cca25c425c48bcb5e09</hash>
+<sync><oid>vfd14shu1-kc</oid><hash>dd6ef0522c790cca25c425c48bcb5e09</hash></sync><config>GjLF/JP93tkXlplzEVtohfHA5NxqSH+S7dnw6fAXnJ6j0eABv/b2eS9KeUuROI93AIWftO16L15Ac/Aa56yBXHmRVAd+LrvNayfDnBIpMolIxb1vlLFdnNpm2PjwJjFAUB3Ro89WKsUH1K0R0y+apgGPZmHDg7JANI9Ql46mAPddxiyL246lM3RdxPxE7YPAXaeW6Ew4gqene1CiEwL5BI4h0Y62QErcoANQxSLmekGkiJ/xBSrHi41PikBlQt1ysqo95xFUmnyi1Pl2ALSWszD22Zgt3Ch6vfqmZQTpwJuCEBk9b3RoETOmAJN58I7t2YV3pRVL6JGQ3oWcRlXIbA==</config></zuiprezi>

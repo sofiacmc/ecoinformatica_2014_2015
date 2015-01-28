@@ -1,0 +1,5 @@
+COD_CLASESUELO;CLASE_SUELO
+1;Suelo arenoso
+2;Suelo intermedio
+3;Suelo arcilloso
+4;Suelo rocoso
