@@ -4,3 +4,4 @@ Identificación de lugares óptimos para reforzar las poblaciones de robledal en
 
 ### Qué datos tenemos??
 
+Un comprimido con todos los ficheros que necesitáis para trabajar el reto.
