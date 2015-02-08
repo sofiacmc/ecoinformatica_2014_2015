@@ -1,14 +1,12 @@
 # Algoritmo que haga la media de 10 temperaturas indicadas por el usuario.
- # Vector de 10 temperaturas a introducir por el usuario.
-t <- scan (n=10)
 
- # Calculo la media de las temperaturas.
-media <- mean (t,trim=0)
+suma <- 0
+for (s in suma){
+  temperaturas<-scan(n=10)  # Vector de 10 temperaturas a introducir por el usuario.
+  total <- suma + temperaturas
+  
+}
 
- # Muestro el resultado de la media.
-print(media)
-
-
-
-
+media<- mean(total)
+print(media)   # Muestro el resultado de la media.
 
