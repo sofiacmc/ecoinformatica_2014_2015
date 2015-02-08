@@ -1,30 +1,32 @@
 # Abro la librería y leo la tabla csv que contiene la informacion de las variables ambientales
 # Mi objetivo es agrupar un conjunto de observaciones en un número dado de clusters o grupos.
 #El agrupamiento se basa en la idea de distancia o similitud en las observaciones.
-# Abro y miro mis datos de robles_ecoinfo.csv
+# Estudio mis datos de robles_ecoinfo.csv
 
 robles<-read.csv("robles_ecoinfo.csv", header = T, sep = ",", dec=".")
 
-# Le digo que no quiero que me coja las dos primeras columnas x e y para mi cluster.
+# Creo un subset de datos: no quiero que me coja las dos primeras columnas x e y para el cluster, ya que corresponden a las coordenadas.
 variables<- subset(robles, select=-c(x,y))
 
-#Defino el número de clusters (o grupos) que quiero hacer de los píxeles
+#Defino el número de clusters en los que quiero agrupar mis pixeles y el número máximo de iteraciones que quiero.
 n_cluster<-3
 cluster<-kmeans(variables,n_cluster, iter.max=200, nstart=3)
+# Selecciono el primer elemento de la lista cluster, asi como el elemento size  
 cluster[[1]]
 cluster$size
+# Creo "resultado", que es un subset de robles y las columnas de coordenadas.
 resultado<-subset(robles,select=c(x,y))
 head(resultado)
+# Mediante un cbind,combino el subset anterior con los valores de cluster asignados a cada pixel.
 resultado<-cbind(resultado, cluster[[1]])
 head(resultado)
 str(resultado)
 
+# Ya tengo mi dataframe con 3 variables. Doy nombre a la tercera columna de mi dataframe resultado mediante la funcion colnames
 colnames(resultado)[3]<-"cluster"
 head(resultado)
 
-
-## OJO: esta variable debería de estar en vuestro script
-## variable con el número de cluster con el que estamos probando
+## Recuerdo que estoy trabajando con 3 clusters
 n_cluster <- 3 
 
 library(sp)
